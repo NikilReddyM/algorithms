@@ -1,0 +1,7 @@
+def bigSum(ar):
+    return sum(ar)
+
+n=input()
+ar = map(int,input().strip().split())
+bigsum = bigSum(ar)
+print(bigsum)

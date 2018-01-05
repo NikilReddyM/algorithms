@@ -1,0 +1,8 @@
+from itertools import combinations
+n,s = map(int,input().split())
+a=list(map(int,input().split()))
+c=0
+for a,b in list(combinations([1,2,3],2)):
+    if a+b == s:
+        c += 1
+print(c)
